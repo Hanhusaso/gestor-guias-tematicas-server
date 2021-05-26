@@ -32,6 +32,11 @@
     },
     "estado": {
       "type": "boolean"
+    },
+    "url": {
+      "type": "uid",
+      "targetField": "nombre",
+      "required": true
     }
   }
 }
