@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "recursos",
   "info": {
-    "name": "recurso"
+    "name": "recurso",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -27,6 +28,10 @@
     },
     "tipo": {
       "type": "string"
+    },
+    "coleccion": {
+      "unique": true,
+      "model": "coleccion"
     }
   }
 }
