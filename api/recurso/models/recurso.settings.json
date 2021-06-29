@@ -30,7 +30,6 @@
       "type": "string"
     },
     "coleccion": {
-      "unique": true,
       "model": "coleccion"
     }
   }
